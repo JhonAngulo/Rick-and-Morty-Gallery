@@ -1,0 +1,14 @@
+ @import './variables'; 
+ @import './typography'; 
+ @import './components/header';
+ @import './components/cards';
+ @import './components/containers';
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: $white-color;
+  font-family: $font-family;
+}
